@@ -1,0 +1,30 @@
+{
+  "Pure Component": {
+    "prefix": "akr-pure-comp",
+    "body": [
+      "import React, { PureComponent } from \"react\"",
+      "\nclass $1 extends PureComponent {",
+      "\trender(){",
+      "\t\treturn (",
+      "\t\t\t$2",
+      "\t\t);",
+      "\t}",
+      "};",
+      "\nexport default $1;"
+    ],
+    "description": "Pure Component"
+  },
+  "Stateless Functional Component": {
+    "prefix": "akr-sf-comp",
+    "body": [
+      "import React from \"react\"",
+      "\nconst $1 = () => {",
+      "\treturn (",
+      "\t\t$2",
+      "\t);",
+      "};",
+      "\nexport default $1;"
+    ],
+    "description": "Stateless Functional Component"
+  }
+}

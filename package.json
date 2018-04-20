@@ -1,0 +1,31 @@
+{
+    "name": "ak-react-snippet",
+    "displayName": "ak-react-snippet",
+    "description": "React snippet for accelerated code writing",
+    "version": "0.0.1",
+    "publisher": "AnandK",
+    "author": {
+        "name": "Anand Kumar",
+        "email": "anand.kumar@live.in"
+    },
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "keywords": ["snippets", "react", "redux", "javascript", "es6"],
+    "license": "MIT"
+}
