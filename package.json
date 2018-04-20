@@ -1,12 +1,16 @@
 {
     "name": "ak-react-snippet",
-    "displayName": "ak-react-snippet",
+    "displayName": "React Code Snippets",
     "description": "React snippet for accelerated code writing",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "AnandK",
     "author": {
         "name": "Anand Kumar",
         "email": "anand.kumar@live.in"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kumar-anand/ak-react-snippets.git"
     },
     "engines": {
         "vscode": "^1.22.0"
